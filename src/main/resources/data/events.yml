@@ -1,5 +1,0 @@
-events:
-  - { id: golden_harvest, category: hoe, weight: 10, duration-seconds: 1200, cooldown-minutes: 20, min-online: 3, max-guard: YELLOW, multiplier: 1.5 }
-  - { id: ore_surge, category: pickaxe, weight: 10, duration-seconds: 1200, cooldown-minutes: 20, min-online: 3, max-guard: YELLOW, multiplier: 1.5 }
-  - { id: double_production, category: gens, weight: 8, duration-seconds: 1200, cooldown-minutes: 20, min-online: 3, max-guard: ORANGE, multiplier: 2.0 }
-  - { id: lucky_tide, category: fishing, weight: 8, duration-seconds: 1200, cooldown-minutes: 20, min-online: 2, max-guard: YELLOW, multiplier: 1.5 }

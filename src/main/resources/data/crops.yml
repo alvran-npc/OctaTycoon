@@ -1,9 +1,0 @@
-crops:
-  wheat: { material: WHEAT, min-level: 1, max-age: 7, base-xp: 1, base-token: 1 }
-  carrot: { material: CARROTS, min-level: 700, max-age: 7, base-xp: 3, base-token: 2 }
-  potato: { material: POTATOES, min-level: 1400, max-age: 7, base-xp: 5, base-token: 3 }
-  beetroot: { material: BEETROOTS, min-level: 2100, max-age: 3, base-xp: 7, base-token: 4 }
-market:
-  min-multiplier: 0.85
-  max-multiplier: 1.15
-  update-seconds: 1200
