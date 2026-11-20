@@ -1,0 +1,68 @@
+# OctaTycoon 0.1-2026-DEV-1
+settings:
+  timezone: "Asia/Jakarta"
+  locale: "id"
+  database:
+    type: "sqlite"
+    sqlite-file: "data/octatycoon.db"
+  scheduler:
+    tick-bus-period-ticks: 100 # 5 seconds
+    offline-cache-gc-minutes: 30
+  economy:
+    max-balance: 9000000000000000
+    pending-reward-limit: 100
+    default-token-multiplier: 1.0
+    max-multiplier: 100.0
+  stats:
+    global-cap: 1.5
+    caps:
+      efisiensi: 0.6
+      hoki: 0.4
+      ceri: 0.3
+      jual: 0.30
+      lumbung: 1.0
+      regen: 0.5
+      combo: 0.5
+      turnamen: 0.5
+      offline: 0.5
+  guard:
+    enabled: true
+    sample-period-ticks: 100
+    green-tps: 19.5
+    yellow-tps: 18.5
+    orange-tps: 17.0
+    recovery-seconds: 60
+  gui:
+    default-click-cooldown-ticks: 4
+    bedrock-click-cooldown-ticks: 4
+    title-prefix: "&#39D5FF&lOCTA"
+  notifications:
+    duplicate-window-seconds: 3
+    compact-window-seconds: 3
+    compact-max-messages: 6
+    sound-enabled: true
+  entity-limit:
+    enabled: true
+    radius: 16
+    max-dropped-items: 120
+    max-removals-per-pass: 60
+    interval-seconds: 10
+  audit:
+    memory-lines: 200
+    file-name: "kuy-audit.log"
+modules:
+  frozen: []
+  # F0 supports the emergency switches: hoe, pickaxe, gens and all.
+
+# First runtime gameplay slice. These are starter values; balance before production.
+gameplay:
+  progression:
+    level-cap: 10000
+    base-xp: 100
+    xp-growth: 25
+    xp-exponent: 1.15
+    prestige-level-caps: [200, 400, 700, 1000, 1500, 2000, 3000, 4000, 6000, 8000, 10000]
+  farming:
+    reward-multiplier: 1.0
+  mining:
+    reward-multiplier: 1.0
