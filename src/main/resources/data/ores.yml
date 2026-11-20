@@ -1,0 +1,17 @@
+# The level bands are intentionally configurable; set final balance values here.
+ores:
+  coal: { min-level: 3000, max-level: 3400, base-xp: 2, base-token: 2, permission: coal }
+  copper: { min-level: 3200, max-level: 3600, base-xp: 3, base-token: 3, permission: copper }
+  iron: { min-level: 3400, max-level: 3900, base-xp: 4, base-token: 4, permission: iron }
+  gold: { min-level: 3700, max-level: 4200, base-xp: 5, base-token: 5, permission: gold }
+  lapis: { min-level: 4000, max-level: 4500, base-xp: 6, base-token: 6, permission: lapis }
+  redstone: { min-level: 4300, max-level: 4800, base-xp: 7, base-token: 7, permission: redstone }
+  emerald: { min-level: 4700, max-level: 5200, base-xp: 10, base-token: 10, permission: emerald }
+  diamond: { min-level: 5000, max-level: 5700, base-xp: 12, base-token: 12, permission: diamond }
+  ancient_debris: { min-level: 6000, max-level: 10000, base-xp: 20, base-token: 25, permission: ancient_debris }
+heat:
+  maximum: 100
+  decay-per-two-seconds: 1
+  rush-seconds: 15
+  rush-bonus: 0.20
+  cooldown-seconds: 60
